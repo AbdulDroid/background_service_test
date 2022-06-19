@@ -1,7 +1,6 @@
-import '../../models/login_request.dart';
-import '../../remote/auth/authapiservice.dart';
-
-import '../../models/user/user.dart';
+import 'package:ubenwa_abdulrahman/data/models/login_request.dart';
+import 'package:ubenwa_abdulrahman/data/models/user/user.dart';
+import 'package:ubenwa_abdulrahman/data/remote/auth/authapiservice.dart';
 
 abstract class AuthRepository {
   Future<User> login(LoginRequest request);

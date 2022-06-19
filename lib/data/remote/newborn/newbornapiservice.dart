@@ -1,9 +1,8 @@
-import '../../local/preferences.dart';
-import '../../models/create_new_born_resquest/create_new_born_resquest.dart';
-import '../../models/get_new_borns_response/newborn.dart';
-
-import '../../config/baseapi.dart';
-import '../../models/get_new_borns_response/get_new_borns_response.dart';
+import 'package:ubenwa_abdulrahman/data/config/baseapi.dart';
+import 'package:ubenwa_abdulrahman/data/local/preferences.dart';
+import 'package:ubenwa_abdulrahman/data/models/create_new_born_resquest/create_new_born_resquest.dart';
+import 'package:ubenwa_abdulrahman/data/models/get_new_borns_response/get_new_borns_response.dart';
+import 'package:ubenwa_abdulrahman/data/models/get_new_borns_response/newborn.dart';
 
 abstract class NewBornApiService {
   Future<NewBorn> createNewBorn(CreateNewBornResquest resquest);

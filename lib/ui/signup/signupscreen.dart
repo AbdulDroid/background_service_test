@@ -87,7 +87,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             hintText: "Jane Doe",
                             filled: true,
                             controller: nameController,
-                            containerHeight: nameHasError ? 76 : 60,
+                            containerHeight: nameHasError ? 80 : 60,
                             fieldHeight: nameHasError ? 60 : 40,
                             validator: (v) {
                               if (v!.isEmpty) {
@@ -110,7 +110,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             hintText: "example@gmail.com",
                             filled: true,
                             controller: emailController,
-                            containerHeight: emailHasError ? 76 : 60,
+                            containerHeight: emailHasError ? 80 : 60,
                             fieldHeight: emailHasError ? 60 : 40,
                             validator: (v) {
                               if (v!.isEmpty) {
@@ -142,7 +142,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             filled: true,
                             hintText: "········",
                             controller: passwordController,
-                            containerHeight: passwordHasError ? 76 : 60,
+                            containerHeight: passwordHasError ? 80 : 60,
                             fieldHeight: passwordHasError ? 60 : 40,
                             validator: (v) {
                               if (v!.isEmpty) {
