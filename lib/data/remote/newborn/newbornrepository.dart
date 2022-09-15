@@ -1,6 +1,6 @@
-import 'package:ubenwa_abdulrahman/data/models/create_new_born_resquest/create_new_born_resquest.dart';
-import 'package:ubenwa_abdulrahman/data/models/get_new_borns_response/newborn.dart';
-import 'package:ubenwa_abdulrahman/data/remote/newborn/newbornapiservice.dart';
+import 'package:background_service_test/data/models/create_new_born_resquest/create_new_born_resquest.dart';
+import 'package:background_service_test/data/models/get_new_borns_response/newborn.dart';
+import 'package:background_service_test/data/remote/newborn/newbornapiservice.dart';
 
 abstract class NewBornRepository {
   Future<NewBorn> createNewBorn(CreateNewBornResquest resquest);

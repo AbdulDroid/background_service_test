@@ -2,7 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:ubenwa_abdulrahman/ui/signup/signupviewmodel.dart';
+import 'package:background_service_test/ui/signup/signupviewmodel.dart';
 
 import '../../di/servicelocator.dart';
 import '../../utils/margins.dart';

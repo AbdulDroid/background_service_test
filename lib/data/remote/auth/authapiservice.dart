@@ -1,7 +1,7 @@
-import 'package:ubenwa_abdulrahman/data/config/baseapi.dart';
-import 'package:ubenwa_abdulrahman/data/local/preferences.dart';
-import 'package:ubenwa_abdulrahman/data/models/login_request.dart';
-import 'package:ubenwa_abdulrahman/data/models/user/user.dart';
+import 'package:background_service_test/data/config/baseapi.dart';
+import 'package:background_service_test/data/local/preferences.dart';
+import 'package:background_service_test/data/models/login_request.dart';
+import 'package:background_service_test/data/models/user/user.dart';
 
 abstract class AuthApiService {
   Future<User> login(LoginRequest loginRequest);
